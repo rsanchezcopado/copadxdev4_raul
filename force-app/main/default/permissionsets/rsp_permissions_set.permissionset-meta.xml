@@ -6,9 +6,9 @@
     </customPermissions>
     <description>Gives the admin data access and the permissions to integrate Salesforce CMS with any endpoint.</description>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>rsp_object__c.rsp_field__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <hasActivationRequired>true</hasActivationRequired>
     <label>rsp_permissions_set</label>
